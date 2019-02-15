@@ -1,0 +1,17 @@
+package org.effectivejava.examples.chapter12.item83;
+
+/**
+ * 九九乘法表
+ * @author zw
+ * @date 2018/11/27
+ */
+public class MultiplicationTables {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 9; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + "*" + i + "=" + j * i + "   ");
+            }
+            System.out.println();
+        }
+    }
+}
